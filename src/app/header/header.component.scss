@@ -1,0 +1,22 @@
+$bg-header:#333;
+$color-header:whitesmoke;
+.header{
+  padding: 5px;
+  background-color: $bg-header;
+  color: $color-header;
+  nav{
+    background-color: inherit;
+    margin: 0 auto;
+    ul{
+      display: flex;
+      justify-content: space-around;
+      li{
+        color: $color-header;
+        padding: 5px;
+        a{
+          color: inherit;
+        }
+      }
+    }
+  }
+}

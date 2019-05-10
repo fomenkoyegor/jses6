@@ -1,0 +1,24 @@
+.tabs-page{
+  background-color: lightcoral;
+}
+
+
+.tabs{
+  background-color: lightgray;
+  li.active + .content{
+    display: block;
+  }
+}
+
+
+.content{
+  background-color: aliceblue;
+  padding: 15px;
+  border: 1px solid;
+  display: none;
+}
+
+
+
+
+
